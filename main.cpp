@@ -17,7 +17,19 @@ setlocale(LC_ALL, "Portuguese");
     cin >> menu;
         switch(menu){
             case 1:
-                puts("Digite o nome da rua: ");
+                cout << "1. Criar casa" << endl;
+                cout << "2. Criar terreno" << endl;
+                cout << "3. Criar apartamento" << endl;
+                int menu2;
+                cin >> menu2;
+                    switch(menu2){
+                    case 1:
+                        cout << "---INSTRUCOES---" << endl;
+                    case 2:
+                        cout << "---INSTRUCOES---" << endl;
+                    case 3:
+                        cout << "---INSTRUCOES---" << endl;
+                    }
         }
     return 0;
 }
