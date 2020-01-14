@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1579029722 source:c:\users\edgelson\desktop\p2\derzu\projeto 2\projeto2\src\imovel.cpp
+	"Imovel.h"
+	<string>
+
+1579029872 c:\users\edgelson\desktop\p2\derzu\projeto 2\projeto2\include\imovel.h
+	<string>
+
+1579028677 source:c:\users\edgelson\desktop\p2\derzu\projeto 2\projeto2\main.cpp
+	<iostream>
+	<string>
+	<Imovel.h>
+	<Casa.h>
+	<Terreno.h>
+	<Apartamento.h>
+	<locale.h>
+
+1579029872 c:\users\edgelson\desktop\p2\derzu\projeto 2\projeto2\include\casa.h
+	<Imovel.h>
+	<string>
+
+1579028313 c:\users\edgelson\desktop\p2\derzu\projeto 2\projeto2\include\terreno.h
+	<Imovel.h>
+	<string>
+
+1579028313 c:\users\edgelson\desktop\p2\derzu\projeto 2\projeto2\include\apartamento.h
+	<Imovel.h>
+	<string>
+
+1579028313 source:c:\users\edgelson\desktop\p2\derzu\projeto 2\projeto2\src\apartamento.cpp
+	"Apartamento.h"
+	<string>
+
+1579029877 source:c:\users\edgelson\desktop\p2\derzu\projeto 2\projeto2\src\casa.cpp
+	"Casa.h"
+	<string>
+
+1579028313 source:c:\users\edgelson\desktop\p2\derzu\projeto 2\projeto2\src\terreno.cpp
+	"Terreno.h"
+	<string>
+
