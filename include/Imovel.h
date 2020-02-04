@@ -1,18 +1,18 @@
 #ifndef IMOVEL_H
 #define IMOVEL_H
 #include <string>
+#include "Endereco.h"
 
 using namespace std;
 
-class Imovel
-{
-    public:
+class Imovel : public Endereco
+{   public:
         Imovel();
-        void setTipoImovel(int);
-        int getTipoImovel();
-        virtual ~Imovel();
-    protected:
+        Imovel(int);
+        //Imovel();
         int TipoDeImovel;
+    protected:
+
     private:
 };
 

@@ -5,6 +5,7 @@
 #include <Terreno.h>
 #include <Apartamento.h>
 #include <locale.h>
+#include <Endereco.h>
 
 using namespace std;
 

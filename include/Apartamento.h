@@ -5,35 +5,17 @@
 
 using namespace std;
 
-class Apartamento : protected Imovel
+class Apartamento : public Imovel
 {
     public:
         Apartamento();
-        Apartamento(string, int, string, string, string, double, string, int);
-        virtual ~Apartamento();
-        string getRua();
-        void setRua(string);
-        int getNumero();
-        void setNumero(int);
-        string getBairro();
-        void setBairro(string);
-        string getCEP();
-        void setCEP(string);
-        string getCidade();
-        void setCidade(string);
-        double getValor();
-        void setValor(double);
-        string getAouV();
-        void setAouV(string);
-    protected:
-        string Rua;
-        int Numero;
-        string Bairro;
-        string CEP;
-        string Cidade;
+        Apartamento(double area, int nquartos, string posicao, int andar, double valor, int nvagasgaragem);
+        double Area;
+        int Nquartos;
+        string Posicao;
+        int Andar;
         double Valor;
-        string AouV;
-    private:
+        int NVagasGaragem;
 };
 
 #endif // APARTAMENTO_H

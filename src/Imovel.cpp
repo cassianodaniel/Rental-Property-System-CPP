@@ -1,24 +1,14 @@
 #include "Imovel.h"
-#include <string>
+#include "string"
 
 using namespace std;
 
 Imovel::Imovel()
 {
-    this->TipoDeImovel = 0;
+
 }
 
-int Imovel::getTipoImovel()
+Imovel::Imovel(int tipodeimovel)
 {
-    return this->TipoDeImovel;
-}
-
-void Imovel::setTipoImovel(int t)
-{
-    this->TipoDeImovel = t;
-}
-
-Imovel::~Imovel()
-{
-    //dtor
+    this->TipoDeImovel = tipodeimovel;
 }
