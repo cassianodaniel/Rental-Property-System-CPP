@@ -24,6 +24,9 @@ class Imovel
         void setTitulo(string titu);
 
         bool disponivel;
+
+
+    protected:
         int tipoImovel;
         Endereco endereco;
         bool aouv;

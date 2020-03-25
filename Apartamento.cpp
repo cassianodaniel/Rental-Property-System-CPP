@@ -6,7 +6,7 @@ Apartamento::Apartamento()
 {
     this->area = 0.0;
     this->nquartos = 0;
-    this->posicao = "Posicao não configurada";
+    this->posicao = "NÃ£o configurada";
     this->andar = 0;
     this->valor = 0.0;
     this->nvagasgaragem = 0;
